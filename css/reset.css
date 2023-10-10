@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* CSS reset
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+body,div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {	list-style: none; }
+
+fieldset, img{ border: 0; }
+
+abbr, acronym{ border: 0;}
+
+address, caption, cite, code, dfn, em, strong, th, var{
+  font-style: normal;
+  font-weight: normal;
+}
+
+strong { font-weight: bold; }
+
+h1, h2, h3, h4, h5, h6{
+  font-size: 1.0em;
+  font-weight: normal;
+}
+
+
+/* font-size */
+.fs08{ font-size:62%; }
+.fs09{ font-size:68%; }
+.fs10{ font-size:77%; }
+.fs11{ font-size:85%; }
+.fs12{ font-size:93%; }
+.fs13{ font-size:100%; } /* 標準 */
+.fs14{ font-size:108%; }
+.fs15{ font-size:116%; }
+.fs16{ font-size:124%; }
+.fs17{ font-size:131%; }
+.fs18{ font-size:139%; }
+.fs19{ font-size:147%; }
+.fs20{ font-size:154%; }
+.fs21{ font-size:162%; }
+.fs22{ font-size:170%; }
+.fs23{ font-size:177%; }
+.fs24{ font-size:185%; }
+.fs25{ font-size:193%; }
+.fs26{ font-size:200%; }
+.fs32{ font-size:248%; }
+
+
+/* for IE6 */
+* html body { font-size: 82%; }
+/* for IE7 */
+*:first-child+html body { font-size: 82%; }
+/*
+各pxに対応する、IEハックで指定するパーセントの値
+12px	75%
+13px	82%
+14px	88%
+15px	94%
+16px	100%
+*/
+
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input,select { box-sizing:border-box; }
+
+
+body {
+	font-size: 13px;
+}
