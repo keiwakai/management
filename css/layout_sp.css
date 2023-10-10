@@ -269,7 +269,7 @@ header {
 /* メインビジュアル */
 .main_visual {
   padding-top: 55px;
-  background-image: url(../images/index/main.jpg);
+  background-image: url(../images/index/main.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
