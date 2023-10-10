@@ -256,7 +256,7 @@ header {
       display: block; }
       header span a::before {
         content: "";
-        background-image: url(../images/index/logo.jpg);
+        background-image: url(../images/index/logo.png);
         background-size: cover;
         width: 190px;
         height: 38px;
